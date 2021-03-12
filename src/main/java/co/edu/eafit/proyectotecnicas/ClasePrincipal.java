@@ -26,6 +26,16 @@ public class ClasePrincipal {
         lector.nextLine();
         nombre = lector.nextLine();
         System.out.println("Hola, " + nombre);
+        punto1();
+        punto2();
+    }
+    
+    static void punto1() {
+        System.out.println("Este es el punto 1");
+    }
+    
+    static void punto2() {
+        System.out.println("Este es el punto 2");
     }
     
 }
